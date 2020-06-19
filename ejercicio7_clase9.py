@@ -8,7 +8,9 @@ columna el valor que toma es mayor que 1.
 '''
 import numpy as np 
 
-# aqui se puede modificar la matriz con con cualquier valor 
+# aqui se puede modificar la matriz con cualquier valor, siempre manteniendo las 3 columnas
+#en el futuro se puede hacer el codigo para cualquier numero de filas y columnas
+#solo habra que modificar la condicion para obtener la lista final
 a = np.array([[1,2,3],[4,3,2],[8,3,1],[8,4,2],[3,2,9],[1,2,4],[8,4,1],[2,1,3],[4,2,8],[1,3,9],[1,3,5]])
 
 print(a)
@@ -47,7 +49,7 @@ for col2 in a[:,rango_matriz-2]:
 
 print(f'Esto son los vectores que cumplen la condicion a >1 en la penultima columna: \n{lista_penultima}\n')
 
-#elementos en 2 que si en 3
+#elementos en penultima que si en ultima
 
 lista_final = []
 
